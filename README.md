@@ -8,7 +8,7 @@ Obrigada por acessar o meu projeto. Ele foi inspirado no desafio do site Fronten
 
 ## O desafio
 
-Foi construir o componente de cartão de pré-visualização de um produto e fazê-lo parecer o mais próximo possível do design original. E, quem acessar o projeto irá consiga ver um layout responsivo, independente do tamanho da tela, e estados de foco e foco para elementos interativos.
+Construir o componente de cartão de pré-visualização de um produto e fazê-lo parecer o mais próximo possível do design original. E, quem acessar o projeto conseguir ver um layout responsivo, independente do tamanho da tela, e estados de foco e foco para elementos interativos.
 
 ## Onde encontrar os componentes do projeto:
 
