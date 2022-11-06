@@ -1,0 +1,25 @@
+/* Dentro da head */
+/* <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+</style> */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: hsl(30, 38%, 92%)
+}
+
+.container1, .container2{
+    display: flex;
+    margin: auto;
+} 
+
+.imgPrincipal {
+    width: 100px;
+}
