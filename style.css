@@ -1,25 +1,95 @@
-/* Dentro da head */
-/* <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-</style> */
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+head {
+    font-size: 11px;
+    text-align: center;  
 }
 
 body {
     display: flex;
-    background-color: hsl(30, 38%, 92%)
+    font-size: 14px;
+    background-color: hsl(29, 100%, 94%)
 }
 
-.container1, .container2{
+.container1{
     display: flex;
-    margin: auto;
+    justify-content: inherit;
+    align-self: center;
+    font-family: 'Montserrat', sans-serif;
 } 
 
 .imgPrincipal {
-    width: 100px;
+    width: 500px;
+    border-radius: 20px 0 0 20px;
+}
+
+.titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    margin: 20px;
+}
+
+.produto {
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.descricao {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin: 20px;
+}
+
+.desconto {
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+    color: hsl(158, 36%, 37%);
+    margin: 20px;
+}
+
+.semDesconto {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin: 10px;
+    text-decoration: line-through
+}
+
+.carrinhoDeCompras {
+    width: 15; 
+    height: 16;
+    color: hsl(0, 0%, 100%);
+}
+
+.adicionarNoCarrinho {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    background: hsl(158, 36%, 37%);    
+    color: hsl(0, 0%, 100%);
+    border: 100px;
+    border-radius: 5px; 
+    margin: 20px;
+    padding: 10px 20px
+}
+
+@media screen and (max-width: 480px){
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+		width: auto;
+	}
+	h1 {
+		text-align: center;
+	}
+
+	nav	{
+		position: static;
+	}
+
+	.lista-beneficios, .imagem-beneficios {
+		width: 100%;
+	}
 }
