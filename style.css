@@ -1,3 +1,11 @@
+:root {
+    --main-color: #F2EAE2;
+    --primary-text-color: #1C232B;
+    --secondary-text-color: #3C8067;
+    --secondary-color:#FFFFFF;
+    --tertiary-color: #6B7189;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -5,26 +13,49 @@
     overflow-x: hidden;
 }
 
+img {
+    width: 100%;
+}
+
 head {
     font-size: 11px;
     text-align: center;  
 }
 
-body {
+/* principal */
+
+main {
     display: flex;
     font-size: 14px;
-    background-color: hsl(29, 100%, 94%)
+    background-color: var(--main-color);
 }
 
-.container1{
+.container-1 {
     display: flex;
-    justify-content: inherit;
-    align-self: center;
-    font-family: 'Montserrat', sans-serif;
-} 
+}
 
-.imgPrincipal {
-    width: 500px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.imgPrincipal {
+    width: 100%;
     border-radius: 20px 0 0 20px;
 }
 
@@ -85,11 +116,8 @@ body {
 		text-align: center;
 	}
 
-	nav	{
-		position: static;
-	}
 
 	.lista-beneficios, .imagem-beneficios {
 		width: 100%;
 	}
-}
+} */
