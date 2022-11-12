@@ -1,7 +1,7 @@
 :root {
-    --main-color: #F2EAE2;
+    --main-color: #F3EAE3;
     --primary-text-color: #1C232B;
-    --secondary-text-color: #3C8067;
+    --secondary-text-color: #3D8168;
     --secondary-color:#FFFFFF;
     --tertiary-color: #6B7189;
 }
@@ -30,94 +30,90 @@ main {
     background-color: var(--main-color);
 }
 
-.container-1 {
-    display: flex;
+.img {
+    display: block;
 }
 
+.imgPrincipal {
+    display: flex;
+    width: 20em;
+    border-radius: 8px 0 0 8px;
+    margin-top: 7em;
+    margin-bottom: 10em;
+    margin-left: 30em;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.imgPrincipal {
-    width: 100%;
-    border-radius: 20px 0 0 20px;
+.retangulo {
+    display: flex;
+    position: relative;
+    width: 21em;
+    height: 30em;
+    border-radius: 0 8px 8px 0;
+    margin-top: 7em;
+    background-color: var(--secondary-color);
+    z-index: 1;
 }
 
 .titulo {
+    position: absolute;
+    margin-top: 1em;
+    margin-left: 2em;
+    padding: 1em;
     font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
-    margin: 20px;
+    font-size: .8em;
+    color: var(--tertiary-color);
+    text-align: center;
+    z-index: 2;
+    letter-spacing: .5em;
+    text-transform: uppercase;  
 }
 
-.produto {
+.subtitulo {
+    position: absolute;
+    margin-top: 1em;
+    margin-left: 0.4em;
+    padding: 0.5em;
     font-family: 'Fraunces', serif;
-    font-size: 20px;
-    margin: 20px;
+    line-height: 1em;
+    font-size: 2.4em;
+    color: var(--primary-text-color);
+    text-align: left;
+    z-index: 2;
 }
 
 .descricao {
+    position: absolute;
+    margin-top: 13em;
+    margin-left: 2em;
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    margin: 20px;
+    line-height: 1.7em;
+    font-size: 1em;
+    color: var(--tertiary-color);
+    text-align: left;
+    z-index: 2;
 }
 
-.desconto {
+.precoDesconto {
+    position: absolute;
+    margin-top: 11em;
+    margin-left: 1em;
     font-family: 'Fraunces', serif;
-    font-size: 20px;
-    color: hsl(158, 36%, 37%);
-    margin: 20px;
+    font-size: 2em;
+    color: var(--secondary-text-color);
 }
 
-.semDesconto {
+.precoSemDesconto {
+    position: absolute;
+    margin-top: 22.5em;
+    margin-left: 13em;
     font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    margin: 10px;
+    font-size: 1em;
+    color: var(--tertiary-color);
     text-decoration: line-through
 }
 
-.carrinhoDeCompras {
-    width: 15; 
-    height: 16;
-    color: hsl(0, 0%, 100%);
+/* Fazer o botão .btn  */
+
+footer {
+    background: #F3EAE3;
 }
-
-.adicionarNoCarrinho {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
-    background: hsl(158, 36%, 37%);    
-    color: hsl(0, 0%, 100%);
-    border: 100px;
-    border-radius: 5px; 
-    margin: 20px;
-    padding: 10px 20px
-}
-
-@media screen and (max-width: 480px){
-	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
-		width: auto;
-	}
-	h1 {
-		text-align: center;
-	}
-
-
-	.lista-beneficios, .imagem-beneficios {
-		width: 100%;
-	}
-} */
