@@ -20,4 +20,4 @@ Por fim, há um arquivo de estilos, o `style-guide.md`. Nele tem as informaçõe
 
 ## Implantação do projeto
 
-- [Vercel](https://product-preview-card-component-navy.vercel.app/)
+- [Deploy](https://product-preview-card-component-navy.vercel.app/)
