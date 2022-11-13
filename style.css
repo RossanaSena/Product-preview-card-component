@@ -112,8 +112,31 @@ main {
     text-decoration: line-through
 }
 
-/* Fazer o botão .btn  */
-
-footer {
-    background: #F3EAE3;
+#btn {
+    display: flex;
+    position: absolute;
+    width: 10em;
+    height: 2em;
+    border-radius: 3px 3px;
+    margin-top: 26em;
+    margin-left: 5em;
+    background-color: var(--secondary-text-color);
+    z-index: 1;
 }
+
+#btn .i {
+    position: relative;
+    margin-top: 22.5em;
+    margin-left: 13em;
+    padding: 1em;
+    font-size: 1em;
+}
+
+.addCarrinho {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: var(--secondary-text-color);
+    text-decoration: line-through
+}
+
