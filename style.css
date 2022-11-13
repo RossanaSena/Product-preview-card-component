@@ -1,9 +1,9 @@
 :root {
     --main-color: #F3EAE3;
-    --primary-text-color: #1C232B;
-    --secondary-text-color: #3D8168;
     --secondary-color:#FFFFFF;
     --tertiary-color: #6B7189;
+    --primary-text-color: #1C232B;
+    --secondary-text-color: #3D8168;
 }
 
 *{
@@ -11,6 +11,7 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 img {
@@ -112,31 +113,34 @@ main {
     text-decoration: line-through
 }
 
-#btn {
+.btn {
     display: flex;
-    position: absolute;
-    width: 10em;
-    height: 2em;
-    border-radius: 3px 3px;
+    position: relative;
+    width: 17em;
+    height: 3em;
+    border-radius: 0.4em;
     margin-top: 26em;
-    margin-left: 5em;
+    margin-left: 2em;
     background-color: var(--secondary-text-color);
     z-index: 1;
 }
 
-#btn .i {
+i {
     position: relative;
-    margin-top: 22.5em;
-    margin-left: 13em;
-    padding: 1em;
+    margin-top: 0.6em;
+    margin-left: 4em;
+    padding: 0.3em;
+    color: var(--secondary-color);
     font-size: 1em;
 }
 
 .addCarrinho {
     position: relative;
+    margin-top: 0.8em;
+    margin-left: 0.3em;
+    padding: 0.3em;
+    color: var(--secondary-color);
     font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
-    color: var(--secondary-text-color);
-    text-decoration: line-through
+    font-size: 0.8em;
 }
 
