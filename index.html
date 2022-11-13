@@ -3,8 +3,10 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Meta de responsividade -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
 
   <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,20 +28,24 @@
 </head>
 
 <!-- Principal -->
-<main>
-  <section class="img">
-    <img class="imgPrincipal" src="./images/image-product-desktop.jpg" alt="Perfume Gabrielle">
-  </section> 
-  <section class="retangulo">
-      <h1 class="titulo">perfume</h1>
-      <h2 class="subtitulo">Gabrielle Essence Eau De Parfum</h2>
-      <h3 class="descricao">Uma interpretação floral, solar e voluptuosa desenvolvida por Olivier Polge, perfumista-criador da Casa CHANEL.</h3>
-      <span class="precoDesconto">R$149,99</span>
-      <span class="precoSemDesconto">R$169,99</span>
-      <div class="btn">
+<body>
+  <section class="container">
+    <div class="esquerdo">
+      <img class="img" src="./images/image-product-desktop.jpg" alt="Perfume Gabrielle">
+      <img class="img2" src="./images/image-product-mobile.jpg" alt="Perfume Gabrielle">
+    </div> 
+    <div class="direito">
+        <h1 class="titulo">perfume</h1>
+        <h2 class="subtitulo">Gabrielle Essence Eau De Parfum</h2>
+        <h3 class="descricao">Uma interpretação floral, solar e voluptuosa desenvolvida por Olivier Polge, perfumista-criador da Casa CHANEL.</h3>
+      <div class="precos">
+        <span class="precoDesconto">R$149,99</span>
+        <span class="precoSemDesconto">R$169,99</span>
+      </div>
+      <button>
         <i class="bi bi-cart3"></i>
         <h4 class="addCarrinho">Add ao Carrinho</h4>
-      </div>
-  </section>
-</main>
+      </button>
+    </div>
+</body>
 </html>
