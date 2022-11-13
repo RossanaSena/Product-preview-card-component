@@ -1,5 +1,5 @@
 :root {
-    --main-color: #F3EAE3;
+    --main-color: #f2eae2cb;
     --secondary-color:#FFFFFF;
     --tertiary-color: #6B7189;
     --primary-text-color: #1C232B;
@@ -10,12 +10,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
-
-img {
-    width: 100%;
 }
 
 head {
@@ -25,122 +19,145 @@ head {
 
 /* principal */
 
-main {
+body {
+    height: 100%;
+    width: 100%;
     display: flex;
     font-size: 14px;
     background-color: var(--main-color);
 }
 
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.esquerdo {
+    display: flex;
+}
+
 .img {
-    display: block;
-}
-
-.imgPrincipal {
-    display: flex;
-    width: 20em;
+    width: 250px;
     border-radius: 8px 0 0 8px;
-    margin-top: 7em;
-    margin-bottom: 10em;
-    margin-left: 30em;
 }
 
-.retangulo {
+.img2{
+    display: none;
+}
+
+ .direito {
     display: flex;
-    position: relative;
-    width: 21em;
-    height: 30em;
-    border-radius: 0 8px 8px 0;
-    margin-top: 7em;
+    flex-direction: column;
+    width:250px;
+    height: 375px;
     background-color: var(--secondary-color);
-    z-index: 1;
+    border-radius: 0 8px 8px 0;
+    padding: 8px;
 }
 
 .titulo {
-    position: absolute;
-    margin-top: 1em;
-    margin-left: 2em;
-    padding: 1em;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 15px;
     font-family: 'Montserrat', sans-serif;
-    font-size: .8em;
+    font-size: 10px;
     color: var(--tertiary-color);
-    text-align: center;
-    z-index: 2;
-    letter-spacing: .5em;
-    text-transform: uppercase;  
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 .subtitulo {
-    position: absolute;
-    margin-top: 1em;
-    margin-left: 0.4em;
-    padding: 0.5em;
+    margin-bottom: 15px;
+    margin-left: 20px;
     font-family: 'Fraunces', serif;
-    line-height: 1em;
-    font-size: 2.4em;
+    line-height: 30px;
+    font-size: 30px;
     color: var(--primary-text-color);
     text-align: left;
-    z-index: 2;
 }
 
 .descricao {
-    position: absolute;
-    margin-top: 13em;
-    margin-left: 2em;
+    margin-bottom: 15px;
+    margin-left: 20px;
     font-family: 'Montserrat', sans-serif;
-    line-height: 1.7em;
-    font-size: 1em;
+    line-height: 20px;
+    font-size: 13px;
     color: var(--tertiary-color);
     text-align: left;
-    z-index: 2;
+}
+
+.precos {
+    margin-bottom: 15px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .precoDesconto {
-    position: absolute;
-    margin-top: 11em;
-    margin-left: 1em;
-    font-family: 'Fraunces', serif;
-    font-size: 2em;
+    font-family:'Fraunces', serif;
+    font-size: 25px;
     color: var(--secondary-text-color);
 }
 
 .precoSemDesconto {
-    position: absolute;
-    margin-top: 22.5em;
-    margin-left: 13em;
+    padding-left: 30px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
+    font-size: 12px;
     color: var(--tertiary-color);
-    text-decoration: line-through
+    text-decoration: line-through;
 }
 
-.btn {
+button {
     display: flex;
-    position: relative;
-    width: 17em;
-    height: 3em;
-    border-radius: 0.4em;
-    margin-top: 26em;
-    margin-left: 2em;
+    margin-left: 20px;
+    padding: 20px;
+    width: 210px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
     background-color: var(--secondary-text-color);
-    z-index: 1;
+    color: var(--secondary-color);
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+button:hover {
+    color: var(--secondary-text-color);
+    background-color: #FFFFFF;
+    border: 2px solid var(--secondary-text-color);
 }
 
 i {
-    position: relative;
-    margin-top: 0.6em;
-    margin-left: 4em;
-    padding: 0.3em;
-    color: var(--secondary-color);
-    font-size: 1em;
+    margin-right: 10px;
 }
 
-.addCarrinho {
-    position: relative;
-    margin-top: 0.8em;
-    margin-left: 0.3em;
-    padding: 0.3em;
-    color: var(--secondary-color);
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.8em;
+/* Responsivo */
+
+@media screen and (max-width: 500px) {
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.img {
+    display: none;
+}
+
+.img2 {
+    display: flex;
+    width: 250px;
+    border-radius: 8px 8px 0 0;
+}
