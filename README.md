@@ -20,4 +20,4 @@ Por fim, há um arquivo de estilos, o `style-guide.md`. Nele tem as informaçõe
 
 ## Demonstração do projeto
 
-- [Deploy]()
+- [Deploy](product-preview-card-component-wbob-bfdhta8ne-rossanasena.vercel.app)
