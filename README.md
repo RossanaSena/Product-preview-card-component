@@ -16,6 +16,4 @@ Construir o componente de cartão de pré-visualização de um produto e fazê-l
 
 ## Onde encontrar os componentes do projeto:
 
-Para a tarefa de construir o layout do projeto, localize a pasta `/design` e utilize os arquivos, que tem versões para desktop e mobile. 
-
-As imagens estão na pasta `/images`, no formato JPG estático. Foram utilizados estilos como `font-size`, `padding` e `margin` para adequar cada imagem ao layout do site.
+Para a tarefa de construir o layout do projeto, utilize os arquivos localizados nas pastas `/css` e `/images`.
