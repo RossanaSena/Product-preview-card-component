@@ -4,7 +4,7 @@
 
 Este projeto foi inspirado no desafio do site Frontend Mentor. Utilizei HTML e CSS para apresentar um produto fictício com a tela para adicioná-lo ao carrinho de compras.
 
-![Design preview for the Product preview card component coding challenge](./images/desktop-preview.jpg)
+![Design preview for the Product preview card component coding challenge](./images/desktop-design.jpg)
 
 ## O desafio
 
