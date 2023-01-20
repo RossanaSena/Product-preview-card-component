@@ -18,6 +18,6 @@ As imagens estão na pasta `/images`, no formato JPG estático. Foram utilizados
 
 Por fim, há um arquivo de estilos, o `style-guide.md`. Nele tem as informações de estilos usados, como paleta de cores e fontes.
 
-## Implantação do projeto
+## Demonstração do projeto
 
 - [Deploy]()
