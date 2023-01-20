@@ -2,9 +2,9 @@
 
 ![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
 
-## Oie,
+## Apresentaçãp
 
-Obrigada por acessar o meu projeto. Ele foi inspirado no desafio do site Frontend Mentor. Esse projeto me ajudou a melhorar minhas habilidades de programação ao criar projetos realistas.
+Este projeto foi inspirado no desafio do site Frontend Mentor. Utilizei HTML e CSS para apresentar um produto fictício com a possibilidade de adicioná-lo a carrinho de compras.
 
 ## O desafio
 
