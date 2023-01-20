@@ -1,4 +1,4 @@
-# Desafio Cartão de pré-visualizção de um produto
+# Criação do cartão de pré-visualizção de um produto fictício responsivo
 
 ## Apresentação
 
