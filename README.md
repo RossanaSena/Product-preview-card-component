@@ -1,10 +1,10 @@
 # Challenge Product preview card component
 
-![Design preview for the Product preview card component coding challenge](./images/desktop-preview.jpg)
-
 ## Apresentação
 
-Este projeto foi inspirado no desafio do site Frontend Mentor. Utilizei HTML e CSS para apresentar um produto fictício com a possibilidade de adicioná-lo a carrinho de compras.
+Este projeto foi inspirado no desafio do site Frontend Mentor. Utilizei HTML e CSS para apresentar um produto fictício com a tela para adicioná-lo ao carrinho de compras.
+
+![Design preview for the Product preview card component coding challenge](./images/desktop-preview.jpg)
 
 ## O desafio
 
