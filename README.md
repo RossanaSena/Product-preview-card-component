@@ -8,7 +8,7 @@ Este projeto foi inspirado no desafio do site Frontend Mentor. Utilizei HTML e C
 
 ## Demonstração do projeto
 
-- [Deploy](https://product-preview-card-component-rmfs.vercel.app/)
+- [Deploy](https://product-preview-card-component-wbob.vercel.app/)
 
 ## O desafio
 
